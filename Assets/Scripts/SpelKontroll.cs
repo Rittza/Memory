@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.UI;
-
+/*
 public enum Shape{
     Square,
     Circle
@@ -19,18 +19,16 @@ public class SpelKontroll : MonoBehaviour
 
     void ButtonName(){
         GameObject objects = GameObject.FindGameObjectWithTag ("HuvudButton");
-        /*
         for(int i = 0; i < objects.Length; i++){
             buttons.Add(objects[i].GetComponent<Button>());
         }
-    */
+    
     
     
     }
 
 
 } 
-
 
 class Button : MonoBehaviour{
     Shape shape = Shape.Square;
@@ -40,3 +38,4 @@ class Button : MonoBehaviour{
         //transform.Rotate(new Vector3(0,1,0));
     }
 }
+*/
