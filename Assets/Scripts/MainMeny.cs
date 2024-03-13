@@ -8,7 +8,7 @@ public class MainMeny : MonoBehaviour
 
     public void Spela()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void Quit()
